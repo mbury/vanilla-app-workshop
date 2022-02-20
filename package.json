@@ -1,0 +1,30 @@
+{
+  "name": "warsawjs-workshop-56-frontend",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@testing-library/user-event": "^13.2.0",
+    "@testing-library/dom": "^8.1.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6",
+    "vite": "^2.4.3"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "lodash": "^4.17.21",
+    "mem": "^9.0.1",
+    "number-to-color": "^0.5.0",
+    "virtual-dom": "^2.1.1"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
